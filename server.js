@@ -1,15 +1,3 @@
-const http = require('http');
-const express = require('express');
-const app = express();
-app.get("/", (request, response) => {
-  console.log(new Date() + " Ping Received");
-  response.sendStatus(400);
-});
-app.listen(3000);
-setInterval(() => {
-  http.get(`http://veryfi.glitch.me/`);
-}, 280000);
-
 //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "^verify"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;

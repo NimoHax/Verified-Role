@@ -10,7 +10,6 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.4",
     "discord.js": "*"
   },
   "engines": {
@@ -18,8 +17,6 @@
   },
   "license": "MIT",
   "keywords": [
-    "node",
-    "glitch",
-    "express"
+    "node"
   ]
 }
